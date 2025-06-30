@@ -34,16 +34,16 @@ geraSenha();
 
 function geraSenha() {
     let alfabeto = '';
-    if (checkbox{0}.checked){
+    if (checkbox[0].checked){
         alfabeto = alfabeto + letrasMaiusculas;
     }
-    if (checkbox{1}.checked){
+    if (checkbox[1].checked){
         alfabeto = alfabeto + letrasMinuscullas;
     }
-    if (checkbox{2}.checked){
+    if (checkbox[2].checked){
         alfabeto = alfabeto + numeros;
     }
-    if (checkbox{3}.checked){
+    if (checkbox[3].checked){
         alfabeto = alfabeto + simbolos;
     }
     
